@@ -35,7 +35,7 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    @Transactional
+    //@Transactional
     //@Lock(LockModeType.PESSIMISTIC_WRITE)
     public OrderProduct createOrder(OrderProduct order) throws URISyntaxException {
           //Get product details based on product id
